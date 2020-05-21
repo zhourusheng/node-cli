@@ -1,16 +1,19 @@
 {
-  "name": "nodecli",
+  "name": "vue3-node-cli",
   "version": "1.0.0",
-  "description": "",
+  "description": "快速生成vue3项目的命令行工具",
   "main": "index.js",
   "bin": {
-    "mycli": "./index.js"
+    "vue3-cli": "./index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "vue3",
+    "脚手架工具"
+  ],
+  "author": "nfuzrs@126.com",
   "license": "ISC",
   "dependencies": {
     "commander": "^5.1.0",
